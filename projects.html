@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Works - Projects, Publications, Books</title>
+  <!-- Add Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card {
+      border-radius: 8px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .btn {
+      border-radius: 20px;
+    }
+    .btn-read-more {
+    background-color: #fff; /* White background */
+    color: #007bff; /* Blue text */
+    border: 1px solid #007bff; /* Blue border */
+    }
+
+  .btn-read-more:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #fff; /* White text on hover */
+    }
+  </style>
+</head>
+<body>
+  <section id="my-works" class="py-5">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title text-center" data-aos="fade-up">
+          <h2>My Work</h2>
+          <p>Explore My Projects, Publications, and Books Titles</p>
+        </div>
+      <!-- Tab Navigation -->
+      <ul class="nav nav-tabs justify-content-center mb-4" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects" type="button" role="tab" aria-controls="projects" aria-selected="true">
+            Projects
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="publications-tab" data-bs-toggle="tab" data-bs-target="#publications" type="button" role="tab" aria-controls="publications" aria-selected="false">
+            Publications
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="books-tab" data-bs-toggle="tab" data-bs-target="#books" type="button" role="tab" aria-controls="books" aria-selected="false">
+            My Book Titles
+          </button>
+        </li>
+      </ul>
+
+      <!-- Tab Content -->
+      <div class="tab-content" id="myTabContent">
+        <!-- Projects Tab -->
+        <div class="tab-pane fade show active" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+          <div class="row">
+            <!-- Project 1 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">Smart Lighting System</h5>
+                  <p class="card-text">Improved energy efficiency using Arduino.</p>
+                  <a href="https://github.com/your-repo-link" class="btn btn-read-more">Read More</a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">Traffic Light Controller</h5>
+                  <p class="card-text">Optimized traffic management using FPGA.</p>
+                  <a href="https://github.com/your-repo-link" class="btn btn-read-more">Read More</a>
+                </div>
+              </div>
+            </div>
+            <!-- Add more project cards here -->
+          </div>
+        </div>
+
+        <!-- Publications Tab -->
+        <div class="tab-pane fade" id="publications" role="tabpanel" aria-labelledby="publications-tab">
+          <div class="row">
+            <!-- Publication 1 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <h5 class="card-title">Histogram-Based Segmentation</h5>
+                  <p class="card-text">Innovative method using bi-level thresholding.</p>
+                  <a href="https://github.com/your-repo-link" class="btn btn-read-more">Read More</a>
+                </div>
+              </div>
+            </div>
+            <!-- Add more publication cards here -->
+          </div>
+        </div>
+
+        <!-- Books Tab -->
+        <!-- Books Tab -->
+<div class="tab-pane fade" id="books" role="tabpanel" aria-labelledby="books-tab">
+    <div class="row">
+      <!-- Book 1 (now Book 2) -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <span class="badge bg-primary mb-2">My First Book</span>
+            <h4 class="card-title"><strong>Coding is Life</strong></h4>
+            <p class="card-text">Learn About Programming <br> <small style="color: blue;"> Published on <strong>14th April 2022</strong> <br>Amazon KDP</small></p>
+            <a href="https://amzn.in/d/c8Y33uy" class="btn btn-read-more">View</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Book 2 (now Book 1) -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <span class="badge bg-primary mb-2">Respect +99</span>
+            <h4 class="card-title"><strong>CodeX-For You</strong></h4>
+            <p class="card-text">A Guide to CodeXplore <br> <small style="color: blue;"> Published on <strong>5th October 2022</strong> <br>Amazon KDP</small></p>
+            <a href="https://amzn.in/d/c8Y33uy" class="btn btn-read-more">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+      </div>
+    </div>
+  </section>
+  <!-- Add Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
